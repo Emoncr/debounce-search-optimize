@@ -62,7 +62,7 @@ function App() {
                   <img alt="Product 1" className="object-cover w-full h-48 md:h-60" height={300} src={product.thumbnail} width={400} style={{ aspectRatio: '400 / 300', objectFit: 'cover' }} />
                   <div className="bg-white p-2 md:p-4 dark:bg-gray-950">
                     <h3 className="font-semibold text-base md:text-lg">{product.title}</h3>
-                    <h4 className="font-semibold text-sm md:text-base">{product.price}</h4>
+                    <h4 className="font-semibold text-sm md:text-base">${product.price}</h4>
                   </div>
                 </div>
               ))
